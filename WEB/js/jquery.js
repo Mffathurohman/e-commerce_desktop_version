@@ -3,11 +3,14 @@ $(function(){
     $("#datepicker").datepicker();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 =======
 =======
     $( "#datepicker" ).datepicker();
 
+>>>>>>> parent of 3bce834 (testing vh)
+=======
 >>>>>>> parent of 3bce834 (testing vh)
     // $('.carousel').carousel()
 >>>>>>> parent of 3bce834 (testing vh)
