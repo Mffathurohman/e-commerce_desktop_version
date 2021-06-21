@@ -68,10 +68,11 @@ $( document ).ready(function() {
 const getAllData=()=>{
 // console.log(dataRender)
 
+
 axios.post('http://products.sold.co.id/get-product-details')
 .then((res)=>{
     allData = res.data
-    // console.log(res.data)
+    console.log(res.data)
     renderItemPromo()
     renderItemNew()
     renderItemAll()
@@ -96,7 +97,7 @@ const get_product_detail_from_main_page=(product_id)=>{
 // RENDER DATA HOME
 const renderItemPromo=()=>{
 
-
+    alert('render item promo jalan')
     allData.map((val,index)=>{
         var hargaAwal = parseInt(val.Sell_Price)
         var discount = parseInt(val.Sell_Price * 0.1)

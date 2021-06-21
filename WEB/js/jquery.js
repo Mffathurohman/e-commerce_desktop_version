@@ -1,7 +1,11 @@
 $(function(){
     $("#datepicker").datepicker();
 
+<<<<<<< HEAD
  
+=======
+    // $('.carousel').carousel()
+>>>>>>> parent of 3bce834 (testing vh)
 
    $('.cust-1').on('click',function(){
        console.log('testing jalan')
